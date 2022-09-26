@@ -1,0 +1,60 @@
+html {
+	background-color: #18171c;
+	color: white;
+}
+
+.top {
+	background-color: #221f2e;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+video {
+	max-height: 30vh;
+	border-radius: 50px;
+}
+
+img, video {
+	display: block;
+	margin: auto;
+}
+
+.top img {
+	padding: 2%;
+	max-height: 20vh;
+}
+
+.elements {
+	display: flex;
+}
+
+.outer-elements, .video-container {
+	margin: 1%;
+	padding: 1%;
+	border-radius: 50px;
+	background-color: #2e293d;
+}
+
+.outer-elements h2, .video-container h2 {
+	text-align: center;
+}
+
+.video-container {
+	margin: auto;
+	width: 30%;
+}
+
+section {
+	flex-basis: 0;
+	flex-grow: 1;
+	margin: 2%;
+	padding: 2%;
+	background-color: #e5649d;
+	border-radius: 50px;
+}
+
+.elements img {
+	max-height: 20vh;
+	border-radius: 50px;
+	padding: 2%;
+}
