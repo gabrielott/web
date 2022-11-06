@@ -1,0 +1,45 @@
+#board {
+	border-collapse: collapse;
+	border: 1px solid black;
+	background-color: #737678;
+}
+
+.square {
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+}
+
+.piece {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.black {
+	background-color: black;
+}
+
+.white {
+	background-color: white;
+}
+
+.legal {
+	background-color: #0076bf;
+	animation: glow 1s infinite alternate;
+}
+
+.legal:hover {
+	background-color: #2daaf7;
+}
+
+@keyframes glow {
+	from {
+		box-shadow: 0 0 3px -3px #0076bf;
+	}
+	to {
+		box-shadow: 0 0 3px 3px #0076bf;
+	}
+}
